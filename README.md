@@ -10,7 +10,7 @@ Fetches current weather and 7-day forecast data from the free [Open-Meteo API](h
 
 The raw API responses are saved as JSON files in `raw_data/`, allowing the Transform step to be re-run without making another API request.
 
-### 2. Transform — `transform.py`
+### 2. Transform : `transform.py`
 
 Reads the raw JSON data and converts it into two structured Pandas DataFrames:
 
