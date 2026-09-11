@@ -4,7 +4,7 @@ An end-to-end ETL (Extract, Transform, Load) pipeline built in Python that colle
 
 ## Pipeline
 
-### 1. Extract — `extract.py`
+### 1. Extract : `extract.py`
 
 Fetches current weather and 7-day forecast data from the free [Open-Meteo API](https://open-meteo.com/) for five Indian cities.
 
@@ -24,7 +24,7 @@ Transformation and cleaning steps include:
 * Calculating daily temperature range
 * Generating a `heat_alert` flag for maximum temperatures ≥ 38°C
 
-### 3. Load — `load.py`
+### 3. Load : `load.py`
 
 Loads the transformed data into a SQLite database named `weather_data.db`.
 
